@@ -1,0 +1,8 @@
+<%= link_to 'На главную', root_path, class: "titlePage", id: "titleCategory" %>
+
+<form action="/search", class="searcher">
+    <input name="q" type="text" placeholder="Поиск" aria-label="Поиск", class="searcherField">
+    <button type="submit", class="searcherField", id="searchButton">Поиск</button>
+</form>
+
+<%= render 'categories/list' %>
