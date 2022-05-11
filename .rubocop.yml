@@ -3,6 +3,7 @@ AllCops:
   Exclude:
     - 'bin/*'
     - 'spec/*'
+    - 'db/schema.rb'
 
 Style/Documentation:
   Enabled: false
